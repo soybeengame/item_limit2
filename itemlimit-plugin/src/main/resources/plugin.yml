@@ -1,0 +1,17 @@
+name: ItemLimit
+version: 1.0.0
+main: com.example.itemlimit.ItemLimitPlugin
+api-version: 1.20
+author: YourName
+description: インベントリ内アイテムの最大所持数を制限し、超過分をドロップするプラグイン
+
+commands:
+  itemlimit:
+    description: ItemLimitプラグインの管理コマンド
+    usage: /itemlimit <reload|set|remove|list>
+    permission: itemlimit.admin
+
+permissions:
+  itemlimit.admin:
+    description: ItemLimitの管理コマンドを使用できる
+    default: op
