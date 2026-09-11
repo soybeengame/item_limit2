@@ -39,15 +39,6 @@ limits:
 - 値：そのアイテムをインベントリ内に何個まで所持できるか
 - ここに書かれていないアイテムは制限されません
 
-## GitHubで自動ビルドする
-
-`.github/workflows/build.yml` を同梱しています。GitHubにリポジトリ
-としてpushするだけで使えます（自分でActionsを書く必要はありません）。
-
-`main` ブランチへのpushやPull Requestのたびに自動でビルドし、
-「Actions」タブの実行結果からjarファイル（Artifacts）をダウンロード
-できます。手動実行（workflow_dispatch）にも対応しています。
-
 ## コマンド
 
 `itemlimit.admin` 権限（デフォルトはOPのみ）が必要です。
